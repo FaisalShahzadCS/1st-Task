@@ -7,7 +7,7 @@ include("functions.php");
 
 if($_SERVER['REQUEST_METHOD'] == "POST")
 {
-    //something was posted
+    //something was posted 
     $user_name = $_POST['user_name'];
     $password = $_POST['password'];
 
